@@ -146,7 +146,7 @@ def exportar_dados():
         SELECT * FROM alunos;
                 ''')
     dados = cursor.fetchall()
-    nome_arquivo = f'ex19/alunos_{datetime.datetime.now().strftime("%Y-%m-%d_%H_%M_%S")}.csv'
+    nome_arquivo = f'alunos_{datetime.datetime.now().strftime("%Y-%m-%d_%H_%M_%S")}.csv'
     with open(nome_arquivo, 'w', newline='', encoding='utf-8') as file:
         write = csv.writer(file)
         write.writerow(['id', 'nome', 'idade'])
