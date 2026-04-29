@@ -2,7 +2,7 @@ import sqlite3
 import csv
 import datetime
 
-conn = sqlite3.connect('sistema-escolar/escola.db')
+conn = sqlite3.connect('crud_escolar/escola.db')
 cursor = conn.cursor()
 
 # Criacao do Banco e Tabela

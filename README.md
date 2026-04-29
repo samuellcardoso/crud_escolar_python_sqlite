@@ -26,7 +26,7 @@ git clone https://github.com/samuellcardoso/crud_escolar_python_sqlite
 ```
 Acesse a pasta do projeto:
 ```bash
-cd crud-escolar
+cd crud_escolar
 ```
 Execute o sistema
 ```bash
